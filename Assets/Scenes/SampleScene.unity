@@ -10744,7 +10744,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 850, y: 0}
-  m_SizeDelta: {x: 550, y: 700}
+  m_SizeDelta: {x: 550, y: 518.7605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771034059
 MonoBehaviour:
@@ -10777,11 +10777,7 @@ MonoBehaviour:
 
     E - interact with NPC
 
-    F - pick up item
-
-
-    padarysiu graziau
-    veliau'
+    F - pick up item'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 21ec31e100585784b81e88318460bde2, type: 2}
   m_sharedMaterial: {fileID: 1130293110100588297, guid: 21ec31e100585784b81e88318460bde2, type: 2}
