@@ -4,9 +4,15 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField]
+    private bool loadNextSceneWhenDialogueEnds = true;
+    [SerializeField]
+    private string nextSceneName = "Scenes/Campfire_cutscene"; // tavo Scene 3
+
     [SerializeField]
     GameObject dialoguePanel;
 
@@ -24,6 +30,7 @@ public class DialogueManager : MonoBehaviour
 
     public void BeginDialogue(Dialogue dialogue)
     {
+
         FirstPersonLook playerLook = FindFirstObjectByType<FirstPersonLook>();
         if (dialogue.Choices.Count == 0)
         {
@@ -34,6 +41,12 @@ public class DialogueManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             playerLook.ResumeLook();
+
+            if (loadNextSceneWhenDialogueEnds)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                return;
+            }
         }
         else 
         { 

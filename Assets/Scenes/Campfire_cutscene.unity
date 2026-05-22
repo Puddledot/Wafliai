@@ -2837,6 +2837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450c47b2bd2a42843b83b002718102f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  loadNextSceneWhenDialogueEnds: 1
+  nextSceneName: Scenes/Campfire_cutscene
   dialoguePanel: {fileID: 906249753}
   dialogueText: {fileID: 372227186}
   buttonPrefab: {fileID: 1402683279705266592, guid: 08654f4c7855bfd4eb482f002c68e52a, type: 3}

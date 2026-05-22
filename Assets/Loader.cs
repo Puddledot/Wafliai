@@ -12,7 +12,7 @@ public class Loader : MonoBehaviour
         if (!loaded && director.state != PlayState.Playing)
         {
             loaded = true;
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

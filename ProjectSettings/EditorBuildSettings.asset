@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscene_scene.unity
     guid: 655cae5c7a50a07459148b1cbdf99f43
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/SampleScene be daiktu.unity
+    guid: ca5c0d1c6036b714ba7bd6be057ae98f
   - enabled: 1
     path: Assets/Scenes/Campfire_cutscene.unity
     guid: 55c0eb48236c5bc4b90b8f0654f4c004
   - enabled: 1
-    path: Assets/BE_GEDVINO.unity
-    guid: b659db570685cc3409594d3599d6c656
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
